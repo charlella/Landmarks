@@ -18,6 +18,11 @@ struct LandmarkRow: View {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             
             Spacer()
+            
+            if landmark.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundStyle(.yellow)
+            }
         }
     }
 }
