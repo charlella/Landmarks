@@ -30,7 +30,6 @@ struct LandmarkDetail: View {
                 .foregroundStyle(.secondary)
                 Divider()
 
-
                 Text("About \(landmark.name)")
                     .font(.title2)
                 Text(landmark.description)
@@ -44,6 +43,7 @@ struct LandmarkDetail: View {
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail(landmark: landmarks[0])
+        LandmarkDetail(landmark: ModelData().landmarks[0])
     }
 }
+
