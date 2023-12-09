@@ -12,6 +12,8 @@ class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     //@Published var hikes: [Hike] = load("hikeData.json")
     
+    var profile = Profile.default
+    
     var features: [Landmark] {
         landmarks.filter { $0.isFeatured }
     }
