@@ -21,6 +21,8 @@
 		BAF073D82B235DC7002A97B0 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF073D72B235DC7002A97B0 /* LandmarkDetail.swift */; };
 		BAF073DA2B237E82002A97B0 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF073D92B237E82002A97B0 /* FavoriteButton.swift */; };
 		BAF073DF2B246E19002A97B0 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF073DE2B246E19002A97B0 /* CategoryHome.swift */; };
+		BAF073E12B2470DF002A97B0 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF073E02B2470DF002A97B0 /* CategoryRow.swift */; };
+		BAF073E32B2471F2002A97B0 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF073E22B2471F2002A97B0 /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		BAF073D72B235DC7002A97B0 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		BAF073D92B237E82002A97B0 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		BAF073DE2B246E19002A97B0 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		BAF073E02B2470DF002A97B0 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		BAF073E22B2471F2002A97B0 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				BAF073DE2B246E19002A97B0 /* CategoryHome.swift */,
+				BAF073E02B2470DF002A97B0 /* CategoryRow.swift */,
+				BAF073E22B2471F2002A97B0 /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -224,8 +230,10 @@
 				BAF073D62B235C4D002A97B0 /* LandmarkList.swift in Sources */,
 				BAF073D82B235DC7002A97B0 /* LandmarkDetail.swift in Sources */,
 				BAF073C52B2335C6002A97B0 /* CircleImage.swift in Sources */,
+				BAF073E32B2471F2002A97B0 /* CategoryItem.swift in Sources */,
 				BAF073CD2B235313002A97B0 /* Landmark.swift in Sources */,
 				BAF073D42B23581C002A97B0 /* LandmarkRow.swift in Sources */,
+				BAF073E12B2470DF002A97B0 /* CategoryRow.swift in Sources */,
 				BAF073CF2B235440002A97B0 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
