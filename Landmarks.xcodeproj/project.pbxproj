@@ -26,6 +26,7 @@
 		BAF073E52B247A54002A97B0 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF073E42B247A54002A97B0 /* Profile.swift */; };
 		BAF073EA2B247ACC002A97B0 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF073E92B247ACC002A97B0 /* ProfileHost.swift */; };
 		BAF073EC2B247B0C002A97B0 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF073EB2B247B0C002A97B0 /* ProfileSummary.swift */; };
+		BAF073EE2B247FDE002A97B0 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF073ED2B247FDE002A97B0 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		BAF073E42B247A54002A97B0 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		BAF073E92B247ACC002A97B0 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		BAF073EB2B247B0C002A97B0 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		BAF073ED2B247FDE002A97B0 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			children = (
 				BAF073E92B247ACC002A97B0 /* ProfileHost.swift */,
 				BAF073EB2B247B0C002A97B0 /* ProfileSummary.swift */,
+				BAF073ED2B247FDE002A97B0 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				BAF073CD2B235313002A97B0 /* Landmark.swift in Sources */,
 				BAF073D42B23581C002A97B0 /* LandmarkRow.swift in Sources */,
 				BAF073E12B2470DF002A97B0 /* CategoryRow.swift in Sources */,
+				BAF073EE2B247FDE002A97B0 /* ProfileEditor.swift in Sources */,
 				BAF073EC2B247B0C002A97B0 /* ProfileSummary.swift in Sources */,
 				BAF073CF2B235440002A97B0 /* ModelData.swift in Sources */,
 			);
