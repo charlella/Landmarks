@@ -40,7 +40,6 @@ struct CategoryRow_Previews: PreviewProvider {
         return CategoryRow(
             categoryName: landmarks[0].category.rawValue,
             items: Array(landmarks.prefix(4))
-                )
-        //CategoryRow()
+        )
     }
 }
